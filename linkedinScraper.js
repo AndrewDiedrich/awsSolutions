@@ -7,8 +7,8 @@ const { AWS_SES } = require('../config');
 
 const puppeteer = require('puppeteer');
 const LINKEDIN_LOGIN = 'https://www.linkedin.com/'
-const LOGIN_EMAIL = 'diedr067@gmail.com';
-const LOGIN_PASSWORD = 'DIEdr$129567';
+const LOGIN_EMAIL = /*linkedin login email*/;
+const LOGIN_PASSWORD = /*linkedin login password*/;
 const LINKEDIN_URL = (personProfile) => `https://www.linkedin.com/in/${personProfile}/`;
 const PERSON_PROFILE = `andrew-diedrich-a0a58893`;
 
@@ -47,33 +47,7 @@ const BUCKET_NAME = 'linkedin-img-dev';
 
     /* Go to the LinkedIn profile page and wait for it to load */
         const contacts =  [
-        {
-            "MCUR": "ADA",
-            "MEMID": 2,
-            "MEMNAME": "Toshi Miyatake",
-            "MEMPOS": "Cardano Foundation - Division Japan",
-            "MEMLINKIN": "https://www.linkedin.com/in/toshi-miyatake-575493152/",
-            "MEMOTHLINK": "-",
-            "MEMEMAIL": "toshi@cardanohub.org"
-        },
-        {
-            "MCUR": "ADA",
-            "MEMID": 3,
-            "MEMNAME": "Michael Parsons",
-            "MEMPOS": "Chairman & Executive Director | Founder",
-            "MEMLINKIN": "https://www.linkedin.com/in/michaelparsons/",
-            "MEMOTHLINK": "-",
-            "MEMEMAIL": "michael.parsons@cardanofoundation.org"
-        },
-        {
-            "MCUR": "AE",
-            "MEMID": 1,
-            "MEMNAME": "Yanislav Malahov",
-            "MEMPOS": "Founder",
-            "MEMLINKIN": "https://www.linkedin.com/in/yanislav-malahov-5025b712/",
-            "MEMOTHLINK": "-",
-            "MEMEMAIL": "yani@aeternity.com"
-        }
+/*fill with objects*/
         ];
         for (let i = 0; i < contacts.length; i++) {
             const contact = contacts[i];
