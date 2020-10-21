@@ -1,8 +1,8 @@
 ### AWS Solutions
 various aws examples
 --------------------
-I will try my best to add backend and frontend integration. 
-- [X] React/Node
+
+- [X] Node
 
 
 - [X] S3 
